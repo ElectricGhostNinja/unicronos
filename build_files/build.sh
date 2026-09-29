@@ -13,7 +13,7 @@ cp -avf "/ctx/system_files"/. /
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux fzf fd jq ripgrep fish fastfetch qbittorrent kitty zsh 
+dnf5 install -y fzf fd jq ripgrep fish fastfetch qbittorrent kitty zsh make ninja meson clang 
 
 # Use a COPR Example:
 #
